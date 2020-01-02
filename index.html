@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container" class="container">
+        <div>
+            <label class="switch">
+                <input type="checkbox" onclick="darkMode()">
+                <span class="slider round"></span> 
+            </label>
+           
+        </div>
+        <section>
+            <div>
+                <div><img src="images/me.png" alt="profile" class="avatar"></div>
+            </div>
+            <div>
+                <div class="my-name">Bayron Pineda</div>
+                <div class="my-title">Software Developer</div>
+                <div class="links">
+                    <div class="link-item">
+                        <img src="images/linkedin.jpeg" alt="linkedin" class="link-icon">
+                        <a id="dark" href="https://www.linkedin.com/in/bayronpineda/">linkedin.com/in/bayronpineda</a>
+                    </div>
+                    <div class="link-item">
+                        <img src="images/github.jpeg" alt="github" class="link-icon">
+                        <a id="dark1" href="https://www.github.com/byronxc">github.com/byronxc</a>
+                    </div>
+                </div>
+                <p>Senior at California State University Northridge, passionate about web and mobile development.</p>
+            </div>
+        </section>
+        <section>
+            <div class="section-title">Education</div>
+            <div>
+                <div>
+                    <div class="title-container">
+                        <div>
+                            <div class="section-name">California State University, Northridge</div>
+                            <div class="section-description">BS Computer Science</div>
+                            <div>August 2018 - Present</div>
+                        </div>
+                    </div>
+                    <div class="title-container">
+                        <div>
+                            <div class="section-name">Moorpark College</div>
+                            <div class="section-description">General Education</div>
+                            <div>June 2015 - May 2018</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="section-title">Projects</div>
+            <div>
+                <div>
+                    <div class="title-container">
+                        <div>
+                            <div class="section-name">Duplicate File Finder</div>
+                            <div class="section-description">Python</div>
+                        </div>
+                    </div>
+                    <p>Python script that finds duplicate files in a folder. 
+                        If the user does not provide the folder the script will use the current working directory. 
+                        The user can also delete duplicate files using this tool.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="section-title">Skills</div>
+            <div>
+                <div class="skills-container">
+                    <ul>
+                        <li>Java</li>
+                        <li>C/C++</li>
+                    </ul>
+                    <ul>
+                        <li>Python</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Prolog</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script  src="darkmode.js"></script>
+</body>
+</html>
