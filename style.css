@@ -17,7 +17,7 @@ img {
 }
 
 a {
-    color: #323232;
+    color:blue;
     text-decoration: none;
 }
 
@@ -28,6 +28,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color: lightseagreen;
 }
 
 .container {
@@ -52,7 +53,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-gap: 10px;
-    padding: 22px 0;
+    padding: 12px 0;
     border-bottom: 1px solid lightgray;
 }
 
@@ -136,7 +137,6 @@ img.avatar {
     width: 48px;
     height: 22px;
 }
-
 
 .switch input {
     opacity: 0;
