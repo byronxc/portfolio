@@ -17,18 +17,12 @@ img {
 }
 
 a {
-    color:blue;
-    text-decoration: none;
-}
-
-.dark-links {
-    color: white;
+    color:rgb(111, 160, 250);
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    color: lightseagreen;
 }
 
 .container {
@@ -52,8 +46,7 @@ a:hover {
 section {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-gap: 10px;
-    padding: 12px 0;
+    padding: 11px 0;
     border-bottom: 1px solid lightgray;
 }
 
