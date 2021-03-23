@@ -290,4 +290,8 @@ input:checked + .slider:before {
     .skills-container ul {
         margin-left: 0px;
     }
+
+    .bar {
+        font-size: 0.55rem;
+    }
 }
