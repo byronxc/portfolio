@@ -1,136 +1,154 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="container" class="container">
-            <div>
-                <label class="switch">
-                    <input type="checkbox" onclick="darkMode()" aria-label="Toggle Dark Mode">
-                    <span class="slider round"></span>
-                </label>
-            </div>
-            <header>
-                <section><img src="images/me.png" alt="avatar profile" class="avatar"></section>
-                <aside>
-                    <div class="my-name">Bayron Pineda</div>
-                    <span class="my-title">Software Developer</span>
-                    <div class="links">
-                        <div class="link-item">
-                            <img src="images/linkedin.jpeg" alt="linkedin" class="link-icon">
-                            <a href="https://www.linkedin.com/in/bayronpineda/">linkedin.com/in/bayronpineda</a>
-                        </div>
-                        <div class="link-item">
-                            <img src="images/github.jpeg" alt="github" class="link-icon">
-                            <a href="https://www.github.com/byronxc">github.com/byronxc</a>
-                        </div>
-                    </div>
-                    <span>Senior at California State University Northridge, passionate about web and mobile development.</span>
-                </aside>
-            </header>
-            <section>
-            </section>
-            <section>
-                <section class="section-title">Education</section>
-                <aside>
-                    <p class="section-name">California State University, Northridge</p>
-                    <p class="section-description">BS Computer Science<br />August 2018 - December 2020</p>
-                </aside>
-            </section>
-            <section>
-                <section class="section-title">Projects</section>
-                <aside>
-                                <a class="section-name" href="https://github.com/byronxc/pyhangman">PyHangman</a>
-                                <p class="section-description">A simple Hangman game made in Python.
-                                    Small project that introduced me to the Python language.
-                                    I mostly learned python syntax, how to manipulate arrays and import libraries, and how to use (I/O) methods.
-                                </p>
+<html lang="en">
 
-                                <a class="section-name" href="https://github.com/byronxc/dup-file-finder">Duplicate File Finder</a>
-                                <p class="section-description">Python script that finds and deletes duplicate files in a folder.
-                                    This project is written in pure Python using Visual Studio Code, Git, GitHub.
-                                    I learned how to interact with the operating system, how to interact with the file system, and how to use dictionaries.
-                                </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-                                <a class="section-name" href="https://github.com/byronxc/gogpa">GoGPA</a>
-                                <p class="section-description">Mobile app that calculates your college GPA.
-                                    It was made in HTML, CSS, and TypeScript using the Ionic Framework.
-                                    I learned the basics of making a progressive web app using web technologies.
-                                    Another goal making this app was learning how to use rich libraries of front-end building blocks and UI components.
-                                </p>
-
-                                <a class="section-name" href="https://github.com/byronxc/linbot">Linbot</a>
-                                <p class="section-description">A discord bot that translates messages from English to any language requested by the user.
-                                    This project is written in pure JavaScript using Visual Studio Code, Git, GitHub, NPM, Google Cloud Translation API and Discord API.
-                                    I learned the basics of making a bot for Discord, a popular communication app, and other skills that I can apply for other communication apps.
-                                </p>
-
-                                <a class="section-name" href="https://github.com/byronxc/portfolio">Portfolio</a>
-                                <p class="section-description">A super light-weight and fast-loading website built using minimal HTML, CSS, and JavaScript.
-                                    My goal with this project was to practice making an aesthetically pleasing, performant, simple, and accessible website.
-                                    I used semantic elements, alt-text on images, and a color pallet with sufficient contrast to maximize accessibility.
-                                    Another goal of mine was to make this website responsive, which means the layout will change depending on the user’s browser size.
-                                </p>
-
-                                <a class="section-name" href="https://github.com/nel-sam/lingo">Lingo</a>
-                                <p class="section-description">An online language learning game created in collaboration with a Senior Software Developer, as a team of two.
-                                    This project is a work-in-progress using React, .Net Core with C#, Entity Framework, MSSQL, Swagger, NPM, Git, and GitHub.
-                                    I am learning the basics of making a website and connecting it to an online database.
-                                </p>
-                </aside>
-            </section>
-            <section>
-                <section class="section-title">Skills</section>
-
-                        <!-- <ul>
-                            <li>Java</li>
-                            <li>C/C++</li>
-                        </ul>
-                        <ul>
-                            <li>Python</li>
-                            <li>HTML/CSS</li>
-                        </ul>
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>React</li>
-                        </ul> -->
-                        <div>
-                            <span>Java</span>
-                            <div class="bar">
-                                <div class="skills java">4 years</div>
-                            </div>
-                            <span>C</span>
-                            <div class="bar">
-                                <div class="skills c">3 years</div>
-                            </div>
-                            <span>Python</span>
-                            <div class="bar">
-                                <div class="skills python">2 years</div>
-                            </div>
-                            <span>JavaScript</span>
-                            <div class="bar">
-                                <div class="skills javascript">2 years</div>
-                            </div>
-                            <span>HTML</span>
-                            <div class="bar">
-                                <div class="skills html">2 years</div>
-                            </div>
-                            <span>CSS</span>
-                            <div class="bar">
-                                <div class="skills css">2 years</div>
-                            </div>
-                            <span>React</span>
-                            <div class="bar">
-                                <div class="skills react">1 year</div>
-                            </div>
-                        </div>
-            </section>
+<body>
+    <div id="container" class="container">
+        <div>
+            <label class="switch">
+                <input type="checkbox" onclick="darkMode()" aria-label="Toggle Dark Mode">
+                <span class="slider round"></span>
+            </label>
         </div>
-        <script src="darkmode.js"></script>
-    </body>
+        <header>
+            <section><img src="images/me.png" alt="avatar profile" class="avatar"></section>
+            <aside>
+                <div class="my-name">Bayron Pineda</div>
+                <span class="my-title">Software Developer</span>
+                <div class="links">
+                    <div class="link-item">
+                        <img src="images/linkedin.jpeg" alt="linkedin" class="link-icon">
+                        <a href="https://www.linkedin.com/in/bayronpineda/">linkedin.com/in/bayronpineda</a>
+                    </div>
+                    <div class="link-item">
+                        <img src="images/github.jpeg" alt="github" class="link-icon">
+                        <a href="https://www.github.com/byronxc">github.com/byronxc</a>
+                    </div>
+                </div>
+                <span>Senior at California State University Northridge, passionate about web and mobile
+                    development.</span>
+            </aside>
+        </header>
+        <section>
+        </section>
+        <section>
+            <section class="section-title">Education</section>
+            <aside>
+                <a class="section-name" href="https://www.csun.edu">California State University, Northridge</a>
+                <span>BS Computer Science</span>
+                <span>August 2018 - December 2020</span>
+
+            </aside>
+        </section>
+        <section>
+            <section class="section-title">Projects</section>
+            <aside>
+                <div class="section-project">
+                    <a class="section-name" href="https://github.com/byronxc/pyhangman">PyHangman</a>
+                    <span>A simple Hangman game made in Python.
+                        Small project that introduced me to the Python language.
+                        I mostly learned python syntax, how to manipulate arrays and import libraries, and how to use
+                        (I/O)
+                        methods.
+                    </span>
+                </div>
+                <div class="section-project">
+                    <a class="section-name" href="https://github.com/byronxc/dup-file-finder">Duplicate File Finder</a>
+                    <span>Python script that finds and deletes duplicate files in a folder.
+                        This project is written in pure Python using Visual Studio Code, Git, GitHub.
+                        I learned how to interact with the operating system, how to interact with the file system, and
+                        how
+                        to use dictionaries.
+                    </span>
+                </div>
+                <div class="section-project">
+                    <a class="section-name" href="https://github.com/byronxc/gogpa">GoGPA</a>
+                    <span>Mobile app that calculates your college GPA.
+                        It was made in HTML, CSS, and TypeScript using the Ionic Framework.
+                        I learned the basics of making a progressive web app using web technologies.
+                        Another goal making this app was learning how to use rich libraries of front-end building blocks
+                        and
+                        UI components.
+                    </span>
+                </div>
+                <div class="section-project">
+                    <a class="section-name" href="https://github.com/byronxc/linbot">Linbot</a>
+                    <span>A discord bot that translates messages from English to any language requested by the user.
+                        This project is written in pure JavaScript using Visual Studio Code, Git, GitHub, NPM, Google
+                        Cloud
+                        Translation API and Discord API.
+                        I learned the basics of making a bot for Discord, a popular communication app, and other skills
+                        that
+                        I can apply for other communication apps.
+                    </span>
+                </div>
+                <div class="section-project">
+                    <a class="section-name" href="https://github.com/nel-sam/lingo">Lingo</a>
+                    <span>An online language learning game created in collaboration with a Senior Software Developer, as
+                        a
+                        team of two.
+                        This project is a work-in-progress using React, .Net Core with C#, Entity Framework, MSSQL,
+                        Swagger,
+                        NPM, Git, and GitHub.
+                        I am learning the basics of making a website and connecting it to an online database.
+                    </span>
+                </div>
+                <div class="section-project">
+                    <a class="section-name" href="https://github.com/byronxc/portfolio">Portfolio</a>
+                    <span>A super light-weight and fast-loading website built using minimal HTML, CSS, and JavaScript.
+                        My goal with this project was to practice making an aesthetically pleasing, performant, simple,
+                        and
+                        accessible website.
+                        I used semantic elements, alt-text on images, and a color pallet with sufficient contrast to
+                        maximize accessibility.
+                        Another goal of mine was to make this website responsive, which means the layout will change
+                        depending on the user’s browser size.
+                    </span>
+                </div>
+            </aside>
+        </section>
+        <section>
+            <section class="section-title">Skills</section>
+            <div>
+                <span>Java</span>
+                <div class="bar">
+                    <div class="skills java">4 years</div>
+                </div>
+                <span>C</span>
+                <div class="bar">
+                    <div class="skills c">3 years</div>
+                </div>
+                <span>Python</span>
+                <div class="bar">
+                    <div class="skills python">2 years</div>
+                </div>
+                <span>JavaScript</span>
+                <div class="bar">
+                    <div class="skills javascript">2 years</div>
+                </div>
+                <span>HTML</span>
+                <div class="bar">
+                    <div class="skills html">2 years</div>
+                </div>
+                <span>CSS</span>
+                <div class="bar">
+                    <div class="skills css">2 years</div>
+                </div>
+                <span>React</span>
+                <div class="bar">
+                    <div class="skills react">1 year</div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="darkmode.js"></script>
+</body>
+
 </html>
