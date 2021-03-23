@@ -17,7 +17,7 @@ img {
 }
 
 a {
-    color:rgb(111, 160, 250);
+    color:rgb(12, 115, 146);
     text-decoration: none;
 }
 
@@ -32,7 +32,29 @@ a:hover {
     background: white;
     color: #323232;
     box-shadow: 0 2px 4px rgb(0,0,0,0.1);
+    
 }
+
+.bar {
+    width: 100%;
+    background-color: gray;
+    margin-bottom: 0.5rem;
+}
+
+.skills {
+    text-align:center;
+  
+    color: white;
+    background-color: rgb(12, 115, 146);
+}
+
+.java {width: 100%;}
+.c {width: 75%;}
+.python {width: 50%;}
+.javascript {width: 50%;}
+.html {width: 50%;}
+.css {width: 50%;}
+.react {width: 25%;}
 
 .dark-mode {
     max-width: 960px;
