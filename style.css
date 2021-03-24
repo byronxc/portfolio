@@ -85,6 +85,7 @@ section:first-of-type {
 
 img.avatar {
     width: 13rem;
+    height: 12rem;
 }
 
 .my-name {
@@ -95,7 +96,7 @@ img.avatar {
 .my-title {
     font-size:  24px;
     font-weight: 300;
-    color: lightseagreen;
+    color: rgb(12, 115, 146);
 }
 
 .links {
@@ -186,7 +187,7 @@ span {
 }
 
 .subtitle {
-    color: gray;
+    color: rgb(93, 93, 95);
 }
 
 .icon {
@@ -236,7 +237,7 @@ span {
     }
 
     body {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .container {
@@ -253,6 +254,7 @@ span {
 
     img.avatar {
         width: 6rem;
+        height: 5.5rem;
     }
 
     .my-name {
@@ -270,7 +272,7 @@ span {
 
     .link-item {
         flex: 1;
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .link-icon {
