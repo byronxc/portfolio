@@ -189,6 +189,33 @@ span {
     color: gray;
 }
 
+.icon {
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 100%;
+    color: white;
+    fill: white;
+    margin-right: 0.3rem;
+}
+
+.github {
+    background: white;
+    fill: black; 
+}
+
+.github:hover {
+    background: #6441a5;
+    fill: white;
+    border-radius: 100%;
+}
+
+.linkedin:hover {
+    color: #007BB6;
+    background: white;
+    fill: #007BB6;
+}
+  
 @media screen and (max-width: 600px) {
     .switch {
         position: relative;
@@ -253,5 +280,9 @@ span {
 
     .bar {
         font-size: 0.55rem;
+    }
+    .icon {
+        width: 12px;
+        height: 12px;
     }
 }
